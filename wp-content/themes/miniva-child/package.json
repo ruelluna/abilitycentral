@@ -1,0 +1,19 @@
+{
+  "name": "miniva-child",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "@wpackio/scripts": "^4.4.1",
+    "cssnano": "^4.1.10",
+    "node-sass": "^4.14.1"
+  },
+  "scripts": {
+    "bootstrap": "wpackio-scripts bootstrap",
+    "build": "wpackio-scripts build",
+    "start": "wpackio-scripts start",
+    "archive": "wpackio-scripts pack"
+  },
+  "dependencies": {
+    "@wpackio/entrypoint": "^4.4.1"
+  }
+}
